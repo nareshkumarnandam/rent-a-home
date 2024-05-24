@@ -59,7 +59,7 @@ const FilterForm = ({setMyData}) => {
             <option value="1000-1500">Rs. 1000-1500</option>
             <option value="1500-2000">Rs. 1500-2000</option>
             <option value="2000-2500">Rs. 2000-2500</option>
-            <option value="2500-3000">Rs. 2500-300</option>
+            <option value="2500-3000">Rs. 2500-3000</option>
           </select>
         </div>
         <div>

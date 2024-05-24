@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# React City Hotel Search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React project that allows users to search for hotels or rooms in their desired city based on various criteria such as price per day, availability, etc. Users can also apply filters to refine their search results. Additionally, users can like their favorite properties, and these liked properties will be stored separately for easy access.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **City Search**: Users can search for hotels or rooms by entering their desired city.
+- **Filtering**: Users can apply filters such as price range, availability, etc., to narrow down their search results.
+- **Like Functionality**: Users can like their favorite properties, and these liked properties will be stored separately for later reference.
+- **Responsive Design**: The application is fully responsive, ensuring a seamless experience across devices of all sizes.
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Search for City**: Enter the desired city in the search bar to begin the search.
+2. **Apply Filters**: Optionally, apply filters to refine your search results based on price, availability, etc.
+3. **View Results**: Browse through the search results to find the perfect hotel or room.
+4. **Like Properties**: Like your favorite properties by clicking the like button. Liked properties will be stored in a separate tab for easy access.
+5. **Responsive Experience**: Enjoy a responsive design that adapts to various screen sizes, ensuring a consistent experience across devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/nareshkumarnandam/rent-a-home.git
+2. **Navigate to the Project Directory:** Open a terminal window and change to the project directory:
+cd rent-a-home
+3. **Install Dependencies:** Use npm to install the project dependencies:
+npm install
+4. **Run the Development Server:** Start the development server to run the application locally:
+npm start
+5. **View the Application:** Open your web browser and navigate to http://localhost:3000 to view the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+![Screenshot 1](./src/assets/Screenshot%20(37).png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 2](./src/assets/Screenshot%20(38).png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 3](./src/assets/Screenshot%20(39).png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 4](./src/assets/Screenshot%20(40).png)
 
-### `npm run eject`
+![Screenshot 5](./src/assets/Screenshot%20(41).png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Link
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Live Demo](https://rent-a-home-three.vercel.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+- React.js
+- HTML/CSS
+- JavaScript
+- React Router (for navigation)
+- LocalStorage (for storing liked properties)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Credits
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was created by Naresh Kumar Nandam. It is licensed under the MIT License.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or create a pull request.
