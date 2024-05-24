@@ -1,0 +1,77 @@
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border: 1px solid gray;
+    overflow: hidden;
+    margin: 0;
+}
+.card img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    transition: 0.3s all ease-in-out;
+}
+.card img:hover {
+    transform: scale(1.15);
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    font-size: 1.4rem;
+    color: blue;
+    padding: 8px 10px;
+}
+.rupee{
+    font-size: 1rem;
+}
+.likeSvg{
+    font-size: 1.5rem;
+}
+.liked{
+    font-size: 1.5rem;
+    color: red;
+    cursor: pointer;
+}
+.notLiked{
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+}
+.mainInfo{
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom: 1px solid gray;
+    margin: 0  12px;
+}
+.mainInfo h4{
+    margin: 0;
+    padding: 0;
+}
+.address{
+    font-size: .9rem;
+    margin: 3px 0;
+    color: gray;
+}
+.extraInfo{
+    position: relative;
+    bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px ;
+}
+.extraInfo div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+    color: gray;
+}
+.extraInfo div svg{
+    font-size: 1.2rem;
+}

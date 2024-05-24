@@ -1,0 +1,129 @@
+.form{
+    width: 100%;
+    background-color: #F8F9FA;
+}
+.divForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 5px 0;
+}
+.divForm div{
+    align-self: center;
+    place-self: center;
+    padding: 20px;
+    border-left: 2px solid gray;
+    height: 60px;
+    border-radius: 10px;
+}
+.divForm .firstLabel{
+    border: none;
+}
+input, select{
+    width: 150px;
+    height: 30px;
+    margin: 5px 0;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+.submitDiv button{
+    width: 100px;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(13, 57, 236);
+    color: white;
+    cursor: pointer;
+}
+.submitDiv button:active{
+    background-color: rgba(13, 58, 236, 0.751);
+}
+
+@media (max-width: 900px){
+    .divForm{
+        display: flex;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .divForm div{
+        width: 100%;
+        display: flex;
+        /* grid-template-columns: 1fr; */
+        justify-content: space-between;
+        align-items: center;
+        /* gap: 20px; */
+        padding: 40px;
+        border-left: 0;
+        border-bottom: 2px solid gray;
+        height: 60px;
+        border-radius: 0px;
+    }
+
+    .submitDiv button{
+        width: 100px;
+        position: relative;
+        top: 0%;
+        left: 45%;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: rgb(13, 57, 236);
+        color: white;
+        cursor: pointer;
+    }
+    .divForm .firstLabel{
+        border-bottom: 2px solid gray;
+    }
+}
+
+@media (max-width: 500px){
+    .form{
+        padding: 20px;
+    }
+    .divForm{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+    }
+    .divForm div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        place-self: center;
+        padding: 40px;
+        border-left: 0;
+        border-bottom: 2px solid gray;
+        height: 60px;
+        border-radius: 0px;
+    }
+    .divForm .firstLabel{
+        border-bottom: 2px solid gray;
+    }
+    .submitDiv button{
+        width: 100px;
+        position: relative;
+        top: 0%;
+        left: 35%;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: rgb(13, 57, 236);
+        color: white;
+        cursor: pointer;
+    }
+}
